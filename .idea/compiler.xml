@@ -7,14 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myblog-common" />
+        <module name="myblog-models" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="myblog" target="1.5" />
       <module name="myblog-common" target="1.8" />
+      <module name="myblog-models" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myblog" options="-parameters" />
       <module name="myblog-common" options="-parameters" />
     </option>
   </component>
