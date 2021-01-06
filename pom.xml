@@ -16,6 +16,17 @@
         <module>myblog-behavior</module>
         <module>myblog-apis</module>
     </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <spring.boot.version>2.3.7.RELEASE</spring.boot.version>
+        <mysql.version>5.1.47</mysql.version>
+        <lombok.version>1.18.12</lombok.version>
+        <spring.cloud.version>Hoxton.SR8</spring.cloud.version>
+    </properties>
     <build>
         <resources>
             <resource>

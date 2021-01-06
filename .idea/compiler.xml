@@ -15,13 +15,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="myblog" target="1.5" />
-      <module name="myblog-apis" target="1.5" />
-      <module name="myblog-behavior" target="1.5" />
-      <module name="myblog-blog" target="1.5" />
+      <module name="myblog" target="1.8" />
+      <module name="myblog-apis" target="1.8" />
+      <module name="myblog-behavior" target="1.8" />
+      <module name="myblog-blog" target="1.8" />
       <module name="myblog-common" target="1.8" />
-      <module name="myblog-models" target="1.5" />
-      <module name="myblog-utils" target="1.5" />
+      <module name="myblog-models" target="1.8" />
+      <module name="myblog-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
