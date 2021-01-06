@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="417e267c-b08b-4602-bbfa-54c4b4cecd06" name="Default Changelist" comment="day1test">
-      <change afterPath="$PROJECT_DIR$/myblog-apis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-behavior/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-blog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/src/main/java/com/mxx/MyblogCommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-common/src/test/java/com/mxx/MyblogCommonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-models/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="417e267c-b08b-4602-bbfa-54c4b4cecd06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myblog-models/maven_dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog-models/maven_prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog-models/maven_test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -59,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myblog-models/src/main/java/com/mxx/models/common/HttpCode" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProjectl\Myblog\myblog-models\src\main\java\com\mxx\models\common\HttpCode" />
+      <recent name="F:\ideaProjectl\Myblog\myblog-models" />
       <recent name="F:\ideaProjectl\Myblog" />
     </key>
   </component>
@@ -101,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609917803048</updated>
-      <workItem from="1609917806532" duration="3269000" />
+      <workItem from="1609917806532" duration="4529000" />
     </task>
     <task id="LOCAL-00001" summary="day1test">
       <created>1609918918277</created>
@@ -110,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609918918277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day1test">
+      <created>1609921156735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609921156735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="548" y="110" key="#Project_Structure/0.0.1920.1046@0.0.1920.1046" timestamp="1609918357294" />
-    <state x="429" y="43" key="CommitChangelistDialog2" timestamp="1609918916440">
+    <state x="429" y="43" key="CommitChangelistDialog2" timestamp="1609921154924">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="429" y="43" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1609918916440" />
+    <state x="429" y="43" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1609921154924" />
     <state x="124" y="89" width="1536" height="864" key="DiffContextDialog" timestamp="1609918836410">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -147,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="192" y="-22" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1609920311674" />
-    <state x="441" y="194" key="Vcs.Push.Dialog.v2" timestamp="1609921140484">
+    <state x="441" y="194" key="Vcs.Push.Dialog.v2" timestamp="1609921158730">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="441" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1046@0.0.1920.1046" timestamp="1609921140484" />
+    <state x="441" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1046@0.0.1920.1046" timestamp="1609921158730" />
     <state x="815" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609921102283">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>

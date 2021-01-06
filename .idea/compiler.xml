@@ -6,19 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myblog-common" />
+        <module name="myblog-blog" />
         <module name="myblog-models" />
+        <module name="myblog-utils" />
+        <module name="myblog-behavior" />
+        <module name="myblog-common" />
+        <module name="myblog-apis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="myblog" target="1.5" />
+      <module name="myblog-apis" target="1.5" />
+      <module name="myblog-behavior" target="1.5" />
+      <module name="myblog-blog" target="1.5" />
       <module name="myblog-common" target="1.8" />
       <module name="myblog-models" target="1.5" />
+      <module name="myblog-utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="myblog" options="-parameters" />
+      <module name="myblog" options="" />
       <module name="myblog-common" options="-parameters" />
     </option>
   </component>
