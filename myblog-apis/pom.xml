@@ -10,6 +10,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>myblog-apis</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.mxx</groupId>
+            <artifactId>myblog-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mxx</groupId>
+            <artifactId>myblog-models</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -11,5 +11,26 @@
 
     <artifactId>myblog-blog</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.mxx</groupId>
+            <artifactId>myblog-models</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mxx</groupId>
+            <artifactId>myblog-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mxx</groupId>
+            <artifactId>myblog-apis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

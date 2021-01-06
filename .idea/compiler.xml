@@ -27,7 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="myblog" options="" />
-      <module name="myblog-common" options="-parameters" />
+      <module name="myblog-common" options="" />
     </option>
   </component>
 </project>
